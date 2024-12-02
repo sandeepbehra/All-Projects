@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+}
+
+
+nav{
+  width: 1200px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 40px;
+}
+.ulLinks{
+display: flex;
+justify-content: space-between;
+gap: 20px;
+list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+  color: rgb(58, 55, 55);
+  font-weight: 900;
+}
+button{
+  background-color: rgb(224, 24, 24);
+  color: hsla(0, 14%, 95%, 0.904);
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.main_section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.left_section{
+  max-width: 500px;
+}
+
+.left_section h1{
+  font-size: 70px;
+}
+
+.paraDiv p{
+  color: rgb(81, 91, 99);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-align:justify;
+  font-family: Arial, Helvetica, sans-serif
+}
+.shoppingButtun{
+  display: flex;
+  
+  gap: 20px;
+}
+.shopbutton{
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.cateButton{
+  background: transparent;
+  color: rgb(115, 120, 124);
+  border: solid 1px grey;
+}

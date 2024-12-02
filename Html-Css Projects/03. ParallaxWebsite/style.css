@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.first_section,
+.second_section,
+.third_section,
+.fourth_section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.first_section {
+    background-image: url(images/img1.jpg);
+
+    min-height: 100vh;
+}
+
+.second_section {
+    background-image: url(images/img2.jpg);
+
+    min-height: 400px;
+
+
+
+}
+
+.third_section {
+    background-image: url(images/img3.jpg);
+    min-height: 400px;
+
+
+
+}
+.fourth_section {
+    background-image: url(images/4.jpg);
+    min-height: 100vh;
+
+
+
+}
+
+.p1div{
+    width: 350px;
+    height: 80px;
+   position: relative;
+   
+  
+
+
+
+
+}
+
+.sdiv {
+    color: aliceblue;
+    background-color: rgb(62, 67, 71);
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    position: relative;
+ 
+
+}
+
+.s2div,
+.s3div {
+
+    font-size: 50px;
+    color: rgb(173, 177, 180);
+    font-weight: bold;
+    position: relative;
+}
+
+.OneAbout h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 81, 87);
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgb(154, 159, 163);
+}
+
+
+.TwoAbout,
+.ThreeAbout {
+    height: 150px;
+    background-color: rgb(47, 49, 49);
+
+}
+
+.TwoAbout h1,
+.ThreeAbout h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(224, 231, 236);
+}
