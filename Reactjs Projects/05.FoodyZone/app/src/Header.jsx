@@ -70,10 +70,11 @@ const UpperHeader = styled.div`
    border: 1px solid red;
    background-color: #141313;
    color: aliceblue;
-   padding: 0 auto;
+   padding: 10px;
+      font-size: 16px;
    
    & ::placeholder{
-   color: #5f0808;
+   color: rgb(250, 243, 243);
    }
  }
 
