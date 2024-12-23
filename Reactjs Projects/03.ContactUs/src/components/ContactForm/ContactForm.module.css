@@ -1,0 +1,62 @@
+.main_section{
+    max-width: 1000px;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.left_section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header_btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.form_content{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ position: relative;
+ width: 100%;
+
+}
+
+.form_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_content input{
+    height: 30px;
+    padding: 0 10px;
+}
+
+.form_content textarea{
+    padding: 10px 10px;
+}
+
+.form_content label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.subBtn{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+
+.right_section img{
+ height: 400px;
+}

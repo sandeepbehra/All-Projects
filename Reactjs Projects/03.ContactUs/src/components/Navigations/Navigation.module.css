@@ -1,0 +1,15 @@
+.navbar{
+    height: 72px;
+    width: 1280;
+    margin: 0 auto;
+    background-color: aqua;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
